@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingi Hansika - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Matrix Background -->
+    <canvas id="matrix-bg"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">HANSIKA</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="glitch" data-text="BINGI HANSIKA">BINGI HANSIKA</span>
+                </h1>
+                <p class="hero-subtitle">Aspiring Software Engineer</p>
+                <p class="hero-description">Passionate about tackling challenging engineering problems with innovative solutions</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="btn-close"></span>
+                            <span class="btn-minimize"></span>
+                            <span class="btn-maximize"></span>
+                        </div>
+                        <span class="terminal-title">hansika@portfolio:~$</span>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-line">
+                            <span class="prompt">$</span>
+                            <span class="command">whoami</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="output">Software Engineer</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="prompt">$</span>
+                            <span class="command">cat skills.txt</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="output">Java | Python | OpenCV | DBMS</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="prompt">$</span>
+                            <span class="command typing-animation">echo "Ready to innovate"</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Aspiring Software Engineer with a solid background in computer science and a passion for tackling challenging engineering problems. Skilled in Java, with a reputation for strong analytical thinking and a proactive mindset.</p>
+                    <p>Actively refining skills through hands-on experience and ongoing learning. Dedicated to utilizing technical knowledge and creative problem-solving to design scalable software solutions and make meaningful contributions to innovative projects.</p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>bingihansika23@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 9032077492</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Hyderabad, India</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/hansika-bingi-42615133b" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-hackerrank"></i></a>
+                        <a href="#" target="_blank"><i class="fas fa-code"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>B.Tech in Computer Science</h3>
+                        <h4>Gokaraju Rangaraju Institute of Engineering and Technology</h4>
+                        <p class="timeline-date">Sept. 2023 – July 2027</p>
+                        <p class="timeline-location">Hyderabad, Telangana, India</p>
+                        <p class="timeline-grade">CGPA: 9.65</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Class XII (MPC)</h3>
+                        <h4>Alphores Junior College</h4>
+                        <p class="timeline-date">June 2021 – May 2023</p>
+                        <p class="timeline-location">Karimnagar, Telangana, India</p>
+                        <p class="timeline-grade">Percentage: 98.7%</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Class X</h3>
+                        <h4>Vasant Valley High School</h4>
+                        <p class="timeline-date">June 2020 – March 2021</p>
+                        <p class="timeline-location">Karimnagar, Telangana, India</p>
+                        <p class="timeline-grade">CGPA: 10</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-project="bus-safety">
+                    <div class="project-image">
+                        <i class="fas fa-bus"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Bus Safety Automation</h3>
+                        <p>Real-time image processing system using OpenCV and IoT</p>
+                        <div class="project-tech">
+                            <span>OpenCV</span>
+                            <span>IoT</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-project="hotel-management">
+                    <div class="project-image">
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Hotel Management System</h3>
+                        <p>Comprehensive system with database optimization</p>
+                        <div class="project-tech">
+                            <span>SQL</span>
+                            <span>Database</span>
+                            <span>System Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-project="quiz-website">
+                    <div class="project-image">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Interactive Quiz Website</h3>
+                        <p>Customizable programming quiz platform</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Java</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>C</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>SQL</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Development</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML/CSS</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-icons">
+                        <div class="skill-icon">
+                            <i class="fas fa-eye"></i>
+                            <span>OpenCV</span>
+                        </div>
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                            <span>DBMS</span>
+                        </div>
+                        <div class="skill-icon">
+                            <i class="fas fa-puzzle-piece"></i>
+                            <span>Problem Solving</span>
+                        </div>
+                        <div class="skill-icon">
+                            <i class="fas fa-code-branch"></i>
+                            <span>GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-container">
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3>Project Lead</h3>
+                        <span class="experience-date">Dec. 2024</span>
+                    </div>
+                    <h4>Hotel Management System - GRIET, Hyderabad</h4>
+                    <ul>
+                        <li>Led a team to design and implement a comprehensive Hotel Management System, streamlining booking, check-in, and billing processes.</li>
+                        <li>Oversaw the integration of real-time availability tracking, enhancing resource management and reducing overbooking incidents.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="achievements">
+                <h3>Achievements & Certifications</h3>
+                <div class="achievement-grid">
+                    <div class="achievement-item">
+                        <i class="fas fa-star"></i>
+                        <div>
+                            <h4>HackerRank 5-Star</h4>
+                            <p>Problem Solving and Java</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <h4>Academic Excellence</h4>
+                            <p>CGPA: 9.65</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <i class="fas fa-certificate"></i>
+                        <div>
+                            <h4>OpenCV Certification</h4>
+                            <p>OpenCV University</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <i class="fas fa-eye"></i>
+                        <div>
+                            <h4>Computer Vision</h4>
+                            <p>Infosys SpringBoard</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modals -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Notification -->
+    <div id="notification" class="notification"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
